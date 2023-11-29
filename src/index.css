@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%);
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+
+}
+.todo-wrapper{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #f2f2f2;
+    margin-top: 15px;
+    padding: 10px 25px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    width: 100%;
+
+}
+.todo-container{
+    background-color: #fff;
+    padding: 70px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.btn-container{
+    margin-left: 20px;
+    display: flex;
+    gap: 20px;
+}
+.deleteBtn{
+    background-color: red;
+    padding: 5px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.editBtn{
+    background-color: yellowgreen;
+    padding: 5px;
+    border: 1px solid yellowgreen;
+    border-radius: 5px;
+}
+.addBtn{
+    background-color: #8E49E8;
+    padding: 5px;
+    border: 1px solid #8E49E8;
+    border-radius: 5px;
+}
+.saveBtn{
+    background-color: dodgerblue;
+    padding: 5px;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    color: #fff;
+}
+span{
+    width: 100px;
+}
+p{
+    width: 50px;
+}
+button{
+    cursor: pointer;
+}
+
+svg{
+    fill: #fff;
+}
+.input-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 30px 0;
+}
+.input-container input, .editInput{
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 1px solid  #8E49E8;
+    font-size: 16px;
+}
